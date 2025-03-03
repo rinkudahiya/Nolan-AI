@@ -48,7 +48,7 @@
   right: 70px;
   top: 130px;
   width: 650px;
-  height: 380px;
+  height: 366px;
   transform: perspective(1500px) rotateY(-35deg);
   margin-right: 20px;
 }
@@ -207,4 +207,82 @@
 .footer {
   display: grid;
   grid-template-columns: 282px 871px 157px;
+}
+.footer-sml1{
+  margin-left: 194px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .header {
+    width: 30%;
+  }
+
+  #video1 {
+    margin-top: 444px;
+    margin-right: -96px;
+    width: 467px;
+    height: 265px;
+  }
+
+  #video1-glow {
+    margin-top: 444px;
+    margin-right: -96px;
+    width: 467px;
+    height: 265px;
+  }
+
+  .big-letter2 {
+    position: relative;
+    top: 130px;
+  }
+  .small-ltr {
+    position: relative;
+    top: 130px;
+  }
+  #vid2 {
+    width: 387px;
+    height: 265px;
+    position: relative;
+    top: 55px;
+    right: 119px;
+  }
+  .vid2-tittle{
+    position: relative;
+    top: 60px;
+    left: 194px;
+  }
+
+ .features{
+  margin-left: 30px;
+ }
+
+ .circle-btn{
+  position: relative;
+  left: 30%;
+ }
+
+ .footer {
+  
+  display: grid;
+  
+  grid-template-rows: 32px 104px 49px;
+  grid-template-columns:none;
+}
+
+.footer-sml-ltr{
+  text-align: center;
+  align-items: center;
+}
+.footer-sml1{
+  margin-left: 10px;
+}
+.footer-icons{
+  align-items: center;
+  margin-left: 115px;
+}
+#title{
+  align-items: center;
+  text-align: center;
+  margin-left: 150px;
+}
 }
